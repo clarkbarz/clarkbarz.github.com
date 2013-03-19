@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div id="homepage">
+	{% for post in site.posts %}
+	  <div class="row-fluid">
+	    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.content }}<p>
+    </div>
+	{% endfor %}
+</div>
