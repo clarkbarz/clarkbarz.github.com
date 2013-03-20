@@ -4,35 +4,14 @@
 
 body {
 	font-family: 'Roboto Condensed', sans-serif;
+}
 
-	#navigation {
-	    position: fixed;
-	    margin: 20px;
-	    width: 25.00%;
-	    border-right: 1px black solid;
-        border-left: 1px black solid;
-	    text-align: center;
-	    padding-bottom: 10px;
-	    h1 {
-	    	margin: 20px;
-	    }
-	    ul {
-	    	list-style-type: none;
-			font-size: 22px;
-			margin: 20px;
-			margin-bottom: 10px;
-			li {
-				margin: 5px;
-			}
-	    }
-	}
-
-	@media (max-width: 767px) {
-	    .sidebar-nav-fixed {
-	        position: static;
-	        width: auto;
-	    }
-	}
+@media (max-width: 767px) {
+    .sidebar-nav-fixed {
+        position: static;
+        width: auto;
+    }
+}
 
 	/*@media (max-width: 979px) {
 	    .sidebar-nav-fixed {
@@ -40,53 +19,54 @@ body {
 	    }
 	}*/
 
-	.pagetitle {
-		margin: 20px 20px 20px 0px;
-		border-top: 1px black solid;
-		border-bottom: 1px black solid;
-		h2 {
-			margin: 20px;
-		}
+.pagetitle {
+	margin: 20px 20px 20px 0px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	h2 {
+		margin: 20px;
 	}
+}
 
-	.pagetext {
-		margin: 20px 40px 20px 20px;
-		border-top: 1px black solid;
-		border-bottom: 1px black solid;
-		p {
-			margin: 5px;
-		}
-		table {
-			margin: 5px;
-		}
-		form {
-			margin: 5px;
-		}
-		.field {
-			padding: 5px;
-		}
-		.actions {
-			padding: 5px;
-		}
-		th {
-			padding: 5px;
-		}
-		td {
-			padding: 5px;
-			border: 1px black dotted;
-		}
-		a {
-			padding-bottom: 10px;
-			margin: 5px;
-		}
-	}
-
-	#footer {
-		margin-right: 20px;
-		margin-bottom: 20px;
-		text-align: center;
-		bottom: relative;
-	}
+.pagetext {
+	margin: 20px 40px 20px 20px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 
 
+}
+p {
+	margin: 5px;
+}
+a {
+	padding-bottom: 10px;
+	margin: 5px;
+}
+#navigation {
+    position: fixed;
+    margin: 20px;
+    width: 25.00%;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h1 {
+	margin: 20px;
+}
+ul {
+	list-style-type: none;
+	font-size: 22px;
+	margin: 20px;
+	margin-bottom: 10px;
+
+}
+li {
+	margin: 5px;
+}
+.footer {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	bottom: relative;
 }
