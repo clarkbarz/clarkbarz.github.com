@@ -5,7 +5,7 @@
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 
-	.sidebar-nav-fixed {
+	#navigation {
 	    position: fixed;
 	    margin: 20px;
 	    width: 25.00%;
