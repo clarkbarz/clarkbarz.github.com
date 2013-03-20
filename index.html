@@ -5,7 +5,10 @@ layout: default
 	{% for post in site.posts %}
 	  	<div class="row-fluid">
 	  		<div class="pagetitle">
-	    		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	  			<ul class="blogtitle">
+		    		<li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li>
+		    		<li><h4>- {{ post.date | date: "%b %d, %Y" }}</h4></li>
+	    		</ul>
 	    	</div>
 	    	<div class="pagetext">
 	    		<p>{{ post.content }}<p>

@@ -1,10 +1,6 @@
 @import "bootstrap";
 
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
-
-body {
-	font-family: 'Roboto Condensed', sans-serif;
-}
+@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
 
 @media (max-width: 767px) {
     .sidebar-nav-fixed {
@@ -12,35 +8,26 @@ body {
         width: auto;
     }
 }
-
-	/*@media (max-width: 979px) {
-	    .sidebar-nav-fixed {
-	        top: 10px;
-	    }
-	}*/
-
-.pagetitle {
-	margin: 20px 20px 20px 0px;
-	border-top: 1px black solid;
-	border-bottom: 1px black solid;
-	h2 {
-		margin: 20px;
-	}
+body {
+	font-family: 'Gilda Display', serif;
 }
-
-.pagetext {
-	margin: 20px 40px 20px 20px;
-	border-top: 1px black solid;
-	border-bottom: 1px black solid;
-
-
+h1 {
+	margin: 20px;
+}
+h2 {
+	display: inline;
+}
+h3 {
+	display: inline;
+}
+h4 {
+	display: inline;
 }
 p {
 	margin: 5px;
 }
 a {
-	padding-bottom: 10px;
-	margin: 5px;
+	color: #006400;
 }
 #navigation {
     position: fixed;
@@ -51,22 +38,59 @@ a {
     text-align: center;
     padding-bottom: 10px;
 }
-h1 {
-	margin: 20px;
-}
-ul {
+#navigation ul {
 	list-style-type: none;
 	font-size: 22px;
 	margin: 20px;
 	margin-bottom: 10px;
 
 }
-li {
+#navigation li {
 	margin: 5px;
+}
+#navigation a {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#navigation a:hover {
+	color: black;
+	text-decoration: none;
+	border-right: black solid 1px;
+	border-left: black solid 1px;
+}
+.blogtitle li {
+	display: inline;
+	list-style-type: none;
+}
+.pagetitle {
+	margin: 20px 20px 20px 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	text-align: center;
+}
+.pagetitle a:hover {
+	color: black;
+	text-decoration: none;
+	border-top: black solid 1px;
+	border-bottom: black solid 1px;
+}
+.pagetext {
+	margin: 20px 40px 20px 20px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 }
 .footer {
 	margin-right: 20px;
 	margin-bottom: 20px;
 	text-align: center;
 	bottom: relative;
+}
+.footer a:hover {
+	color: black;
+	text-decoration: none;
+	border-top: black solid 1px;
+	border-bottom: black solid 1px;
 }
