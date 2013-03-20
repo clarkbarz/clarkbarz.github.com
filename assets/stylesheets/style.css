@@ -43,7 +43,6 @@ a {
 	font-size: 22px;
 	margin: 20px;
 	margin-bottom: 10px;
-
 }
 #navigation li {
 	margin: 5px;
@@ -61,6 +60,9 @@ a {
 #navigation img {
 	width: 66%;
 	border-radius: 5px;
+}
+.blogtitle ul {
+	margin: 0 0 0 0;
 }
 .blogtitle li {
 	display: inline;
