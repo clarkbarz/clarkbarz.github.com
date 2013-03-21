@@ -78,6 +78,9 @@ a {
 	border-bottom: 1px #8C8C8C solid;
 	text-align: center;
 }
+.pagetitle a {
+	color: #8C8C8C;
+}
 .pagetitle a:hover {
 	color: #8C8C8C;
 	text-decoration: none;
@@ -94,6 +97,9 @@ a {
 	text-decoration: none;
 	border-top: #8C8C8C solid 1px;
 	border-bottom: #8C8C8C solid 1px;
+}
+#sitetitle a {
+	color: #8C8C8C;
 }
 .footer {
 	margin-right: 20px;
