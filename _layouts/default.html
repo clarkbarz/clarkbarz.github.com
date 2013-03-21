@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="/assets/stylesheets/bootstrap.css" rel="stylesheet">
   <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/stylesheets/style.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +8,6 @@
 </head>
 
 <body>
-  <!-- <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-  <script type="text/javascript" src="https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi&count=1"></script> -->
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span4">
@@ -24,7 +21,13 @@
             </li>
             <li><a class="link" href="https://twitter.com/clarkbarz">@clarkbarz</a>
             </li>
-            <li><div id="tweeter">{{ $tweet }}</div>
+            <li>
+              <div id="twitter_update_list">
+              <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js">
+              </script>
+              <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/clarkbarz.json?callback=twitterCallback2&count=1">
+              </script>
+              </div>
             </li>
           </ul>
         </div>
