@@ -1,6 +1,7 @@
 @import "bootstrap";
 
-@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
 
 @media (max-width: 767px) {
     .sidebar-nav-fixed {
@@ -9,7 +10,9 @@
     }
 }
 body {
-	font-family: 'Gilda Display', serif;
+	font-family: 'PT Sans', sans-serif;
+	color: #8C8C8C;
+	background-color: #292929;
 }
 h1 {
 	margin: 20px;
@@ -27,14 +30,14 @@ p {
 	margin: 5px;
 }
 a {
-	color: #A05B00;
+	color: #104E8B;
 }
 #navigation {
     position: fixed;
     margin: 20px;
     width: 25.00%;
-    border-right: 1px black solid;
-    border-left: 1px black solid;
+    border-right: 1px #8C8C8C solid;
+    border-left: 1px #8C8C8C solid;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -52,10 +55,10 @@ a {
 	padding-left: 5px;
 }
 #navigation a:hover {
-	color: black;
+	color: #8C8C8C;
 	text-decoration: none;
-	border-right: black solid 1px;
-	border-left: black solid 1px;
+	border-right: #8C8C8C solid 1px;
+	border-left: #8C8C8C solid 1px;
 }
 #navigation img {
 	width: 66%;
@@ -73,26 +76,26 @@ a {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 20px;
-	border-top: 1px black solid;
-	border-bottom: 1px black solid;
+	border-top: 1px #8C8C8C solid;
+	border-bottom: 1px #8C8C8C solid;
 	text-align: center;
 }
 .pagetitle a:hover {
-	color: black;
+	color: #8C8C8C;
 	text-decoration: none;
-	border-top: black solid 1px;
-	border-bottom: black solid 1px;
+	border-top: #8C8C8C solid 1px;
+	border-bottom: #8C8C8C solid 1px;
 }
 .pagetext {
 	margin: 20px 40px 20px 20px;
-	border-top: 1px black solid;
-	border-bottom: 1px black solid;
+	border-top: 1px #8C8C8C solid;
+	border-bottom: 1px #8C8C8C solid;
 }
 .pagetext a:hover {
-	color: black;
+	color: #8C8C8C;
 	text-decoration: none;
-	border-top: black solid 1px;
-	border-bottom: black solid 1px;
+	border-top: #8C8C8C solid 1px;
+	border-bottom: #8C8C8C solid 1px;
 }
 .footer {
 	margin-right: 20px;
@@ -101,10 +104,10 @@ a {
 	bottom: relative;
 }
 .footer a:hover {
-	color: black;
+	color: #8C8C8C;
 	text-decoration: none;
-	border-top: black solid 1px;
-	border-bottom: black solid 1px;
+	border-top: #8C8C8C solid 1px;
+	border-bottom: #8C8C8C solid 1px;
 }
 .footer a {
 	padding: 1px;
