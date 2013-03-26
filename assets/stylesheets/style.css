@@ -14,9 +14,7 @@ body {
 	color: #8C8C8C;
 	background-color: #292929;
 }
-h1 {
-	margin: 20px;
-}
+
 h2 {
 	display: inline;
 }
@@ -39,20 +37,17 @@ a {
     border-right: 1px #8C8C8C solid;
     border-left: 1px #8C8C8C solid;
     text-align: center;
-    padding-bottom: 10px;
+}
+#navigation h1 {
+	margin: 15px 0 10px 0;
 }
 #navigation ul {
 	list-style-type: none;
-	font-size: 22px;
-	margin: 20px;
-	margin-bottom: 10px;
+	font-size: 18px;
+	margin: 10px;
 }
 #navigation li {
 	margin: 5px;
-}
-#navigation a {
-	padding-right: 5px;
-	padding-left: 5px;
 }
 #navigation a:hover {
 	color: #8C8C8C;
@@ -64,9 +59,10 @@ a {
 	width: 66%;
 	border-radius: 10px;
 	border: 1px #8C8C8C solid;
+	margin: 10px;
 }
-#navigation .twitter-timeline {
-	width: 75%;
+#navigation iframe {
+	margin: 10px 0 15px 0;
 }
 .blogtitle li {
 	display: inline;
