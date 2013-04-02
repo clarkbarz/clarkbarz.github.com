@@ -2,12 +2,20 @@
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
+@media (min-width: 979px) {
 
-@media (max-width: 767px) {
-    .sidebar-nav-fixed {
-        position: static;
-        width: auto;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .span4 {
+    	display: none;
     }
+    .span8 {
+    	float: none;
+    	width: auto;
+    }
+}
+@media (max-width: 768px) {
+
 }
 body {
 	font-family: 'PT Sans', sans-serif;
@@ -52,6 +60,8 @@ a {
 #navigation a:hover {
 	color: #8C8C8C;
 	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
 	border-right: #8C8C8C solid 1px;
 	border-left: #8C8C8C solid 1px;
 }
@@ -63,6 +73,22 @@ a {
 }
 #navigation iframe {
 	margin: 10px 0 15px 0;
+}
+#mobile-navigation {
+	text-align: center;
+}
+#mobile-navigation li {
+	list-style-type: none;
+	display: inline;
+}
+#mobile-navigation a:hover {
+	color: #8C8C8C;
+	border-top: 1px #8C8C8C solid;
+	border-bottom: 1px #8C8C8C solid;
+	text-decoration: none;
+}
+#mobile-navigation .link {
+	font-size: 18px;
 }
 .blogtitle li {
 	display: inline;
@@ -100,17 +126,17 @@ a {
 #sitetitle a {
 	color: #8C8C8C;
 }
-.footer {
+#footer {
 	margin-right: 20px;
 	margin-bottom: 20px;
 	text-align: center;
 }
-.footer a:hover {
+#footer a:hover {
 	color: #8C8C8C;
 	text-decoration: none;
 	border-top: #8C8C8C solid 1px;
 	border-bottom: #8C8C8C solid 1px;
 }
-.footer a {
+#footer a {
 	padding: 1px;
 }
