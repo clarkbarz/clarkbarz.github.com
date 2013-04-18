@@ -9,10 +9,9 @@
     .span4 {
     	display: none;
     }
-    .span8 {
-    	width: auto;
-    	margin-right: ;
-    	margin-left: 15%;
+    .span8 #display-content {
+    	float: none;
+    	width: 66%;
     }
 }
 @media (max-width: 768px) {
