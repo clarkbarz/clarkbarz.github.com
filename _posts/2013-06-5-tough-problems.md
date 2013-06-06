@@ -7,18 +7,13 @@ Phew.
 
 The past half-week was a trip back to my days (rather, nights) in the W&M computer lab, going over lines of code in an effort to get tests passing. It was one small group of tests validating user sign in that was proving to be the most insurmountable obstacle. I felt like I had gone over code for the sessions controller and sessions helper at least ten times when, on the eleventh, I found my problem:
 
-
-	class SessionsController < ApplicationController
-	  def create
-		user = User.find_by(email: params[:session][:email].downcase)
-		if user && user.authenticate(password: params[:session][:password])
-		  sign_in user
-		  redirect_to user
-		else
-		  flash.now[:error] = 'Invalid email/password combination'
-		  render 'new'
-		end
-	  end
+	user = User.find_by(email: params[:session][:email].downcase)
+	if user && user.authenticate(password: params[:session][:password])
+  		sign_in user
+  		redirect_to user
+	else
+  		flash.now[:error] = 'Invalid email/password combination'
+  		render 'new'
 	end
 
 Can you spot it? It turns out the <code>authenticate()</code> method only accepts one argument whereas I was giving it a hash. The line of code that got five of tests passing and everything running smooth just needed one less symbol:

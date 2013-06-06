@@ -23,6 +23,10 @@ body {
 	background-color: #292929;
 }
 
+code {
+	text-indent: 10px;
+}
+
 h2 {
 	display: inline;
 }
