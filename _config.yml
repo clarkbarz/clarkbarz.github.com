@@ -44,4 +44,4 @@ kramdown:
 # defaults
 sass:
   syntax: scss        # scss|sass
-  style:  compressed  # nested|expanded|compact|compressed
+  style:  nested  # nested|expanded|compact|compressed
