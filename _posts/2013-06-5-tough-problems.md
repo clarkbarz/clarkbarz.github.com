@@ -7,6 +7,8 @@ Phew.
 <br>
 The past half-week was a trip back to my days (rather, nights) in the W&M computer lab, going over lines of code in an effort to get tests passing. It was one small group of tests validating user sign in that was proving to be the most insurmountable obstacle. I felt like I had gone over code for the sessions controller and sessions helper at least ten times when, on the eleventh, I found my problem:
 
+<!--break-->
+
 <br>
 
 	user = User.find_by(email: params[:session][:email].downcase)

@@ -8,6 +8,8 @@ When I was pretty young, maybe 7 or 8, I was asked by my best friend's parents (
 <br>
 My conscious journey through the world of music didn't really begin until my early years of high school, when a few significant things happened. In the time before that, I had heard plenty of songs from close friends and family mostly, but had never taken the time to consider what I liked and didn't. However, those songs (mostly Grateful Dead from my father and classic rock from Guitar Hero) did provide a base through which I would take my first steps into what would later become ear medication.
 
+<!--break-->
+
 <br>
 The main key event to occur was receiving my first notebook computer in order to help with school work, and like any high schooler at the time, I of course immediately installed iTunes and later on, Limewire (which I luckily never used very much). I ended up receiving most of my initial collection from my brother, who fueled my initial quest for *drumroll*... classics like Led Zeppelin, the Rolling Stones, Lynyrd Skynyrd, the Beatles, Bob Dylan, the Who, etc. in addition to jam bands like the Grateful Dead and Phish.
 

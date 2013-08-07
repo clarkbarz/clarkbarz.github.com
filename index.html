@@ -11,7 +11,10 @@ layout: default
 	    		</ul>
 	    	</div>
 	    	<div class="pagetext">
-	    		<p>{{ post.content }}<p>
+	    		{{ post.content | split:'<!--break-->' | first }}</p>
+	    		{% if post.content contains '<!--break-->' %}
+	    			<a href="{{ post.url }}" class="readmore">Read more</a>
+	    		{% endif %}
 	    	</div>
 	  </div>
 	{% endfor %}
