@@ -21,6 +21,9 @@
     }
 }
 
+
+/* Misc */
+
 body {
     font-family: 'PT Sans',  sans-serif;
     color: #292929;
@@ -50,21 +53,10 @@ a {
     -o-transition: 0.3s ease;
 }
 
-.sitetitle a {
-    color: #292929;
-    -webkit-transition: 0.3s ease;
-    -moz-transition: 0.3s ease;
-    -o-transition: 0.3s ease;
-    border-right: #DDDDDD solid 1px;
-    border-left: #DDDDDD solid 1px;
-}
-
 a.readmore {
     margin-left: 43%;
     margin-top: 10%;
     font-size: 18px;
-    border-bottom: #DDDDDD solid 1px;
-    border-top: #DDDDDD solid 1px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
@@ -72,29 +64,36 @@ a.readmore {
 
 a.readmore:hover {
     padding: 1px 0;
-    border-top: #292929 solid 1px;
-    border-bottom: #292929 solid 1px;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+
+.sitetitle a {
+    color: #292929;
+    border-right: #DDDDDD solid 1px;
+    border-left: #DDDDDD solid 1px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
 }
 
 .sitetitle a:hover {
-    -webkit-transition: 0.3s ease;
-    -moz-transition: 0.3s ease;
-    -o-transition: 0.3s ease;
     text-decoration: none;
     padding: 0 10px;
     border-right: #292929 solid 2px;
     border-left: #292929 solid 2px;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
 }
+
+/* Navigation */
 
 #navigation {
     position: fixed;
     margin: 20px;
     width: 25.00%;
-    border-right: 1px #292929 solid;
-    border-left: 1px #292929 solid;
     text-align: center;
 }
 
@@ -108,8 +107,6 @@ a.readmore:hover {
     margin: 5px;
     line-height: 30px;
     font-size: 24px;
-    border-right: #DDDDDD solid 1px;
-    border-left: #DDDDDD solid 1px;
 }
 
 #navigation li a:hover {
@@ -117,8 +114,6 @@ a.readmore:hover {
     text-decoration: none;
     padding-right: 5px;
     padding-left: 5px;
-    border-right: #292929 solid 1px;
-    border-left: #292929 solid 1px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
@@ -134,6 +129,8 @@ a.readmore:hover {
 #navigation iframe {
     margin: 10px 0 15px 0;
 }
+
+/* Mobile Navigation */
 
 #mobile-navigation {
     text-align: center;
@@ -172,16 +169,12 @@ a.readmore:hover {
 }
 
 #mobile-navigation .links li a {
-    border-top: #DDDDDD solid 1px;
-    border-bottom: #DDDDDD solid 1px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
 }
 #mobile-navigation .links li a:hover {
     color: #292929;
-    border-top: 1px #292929 solid;
-    border-bottom: 1px #292929 solid;
     padding: 2px 0;
     text-decoration: none;
     -webkit-transition: 0.3s ease;
@@ -195,13 +188,19 @@ a.readmore:hover {
     display: inline;
     list-style-type: none;
 }
+
 .blogtitle a {
+    color: #104E8B;
+    border-top: #DDDDDD solid 2px;
+    border-bottom: #DDDDDD solid 2px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
 }
+
 .blogtitle a:hover {
-    color: #104E8B;
+    border-top: #292929 solid 2px;
+    border-bottom: #292929 solid 2px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
@@ -212,45 +211,41 @@ a.readmore:hover {
 .pagetitle {
     margin: 20px 20px 0px 0px;
     padding: 10px 20px 10px 0;
-    border-top: 1px #292929 solid;
-    border-bottom: 1px #292929 solid;
     text-align: center;
 }
+
 .pagetitle a {
     color: #292929;
-    border-top: #DDDDDD solid 1px;
-    border-bottom: #DDDDDD solid 1px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
 }
+
 .pagetitle a:hover {
     color: #292929;
     text-decoration: none;
-    border-top: #292929 solid 1px;
-    border-bottom: #292929 solid 1px;
     padding-top: 3px;
     padding-bottom: 3px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
 }
+
 .pagetext {
     margin: 20px 40px 20px 20px;
     padding-bottom: 10px;
-    border-top: 1px #292929 solid;
-    border-bottom: 1px #292929 solid;
 }
+
 .pagetext a {
-    border-top: #DDDDDD 1px solid;
-    border-bottom: #DDDDDD 1px solid;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
 }
+
 .pagetext a:hover {
     color: #292929;
     padding: 1px 0;
     text-decoration: none;
-    border-top: #292929 solid 1px;
-    border-bottom: #292929 solid 1px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
