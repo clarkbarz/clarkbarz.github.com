@@ -119,15 +119,12 @@ a.readmore:hover {
     -o-transition: 0.3s ease;
 }
 
-#navigation img {
-    width: 80%;
-    border-radius: 10px;
-    border: 1px #292929 solid;
-    margin: 10px;
-}
-
 #navigation iframe {
     margin: 10px 0 15px 0;
+}
+
+#navigation .custom_amount {
+    width: 90%;
 }
 
 /* Mobile Navigation */

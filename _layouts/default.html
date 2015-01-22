@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet">
-  <link href="/assets/stylesheets/style.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scott Clark</title>
+    <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/stylesheets/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scott Clark</title>
+    <script src="/assets/scripts/jquery-1.11.2.min.js"></script>
+    <script src="https://knoxpayments.com/merchant/knox.js" id="knox_payments_script" button_text="Give me Moneyz" api-key="47d81ba073de1b9c69edee2af4d6f5f31b463fcd" recurring="ot" user_request="show_all" invoice_detail="Just for random payments" response_url="http://clarkbarz.github.io"></script>
 </head>
 
 <body>
-  <div class="container-fluid">
+<div class="container-fluid">
     <div class="row-fluid whole-page">
-      <div class="span4 visible-desktop">
+    <div class="span4 visible-desktop">
         <div class="sidebar-nav sidebar-nav-fixed" id="navigation">
-          <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
-          <ul class="links">
+        <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
+        <ul class="links">
             <li><a href="mailto:scottclark591@gmail.com">email</a>
             </li>
             <li><a href="/assets/misc/resume.pdf">resume</a>
@@ -22,14 +24,15 @@
             </li>
             <li><a href="https://twitter.com/clarkbarz">twitter</a>
             </li>
-          </ul>
-          <iframe width="90%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F47370909&amp;color=104e8b&amp;auto_play=false"></iframe>
+        </ul>
+        <iframe width="90%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F47370909&amp;color=104e8b&amp;auto_play=false"></iframe>
+        <div class="knox-payments-div" data-amount="custom"></div>
         </div>
-      </div>
-      <div class="span8" id="display-content">
+    </div>
+    <div class="span8" id="display-content">
         <div class="hidden-desktop" id="mobile-navigation">
-          <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
-          <ul class="links">
+        <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
+        <ul class="links">
             <li><a href="mailto:scottclark591@gmail.com">email</a></li> |
             <li><a href="/assets/misc/resume.pdf">resume</a>
             </li> |
@@ -39,19 +42,19 @@
             </li>
             </li> |
             <li><a href="http://www.soundcloud.com/clarkbarz">soundcloud</a>
-          </ul>
+        </ul>
         </div>
         {{ content }}
         <div id="footer">
-          <small> Powered by:
+        <small> Powered by:
             <br>
             <a href="http://github.com/mojombo/jekyll">Jekyll</a>
             <br>
             <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
-          </small>
+        </small>
         </div>
-      </div>
     </div>
-  </div>
+    </div>
+</div>
 </body>
 <html>
