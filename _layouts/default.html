@@ -12,48 +12,54 @@
 <body>
 <div class="container-fluid">
     <div class="row-fluid whole-page">
-    <div class="span4 visible-desktop">
-        <div class="sidebar-nav sidebar-nav-fixed" id="navigation">
-        <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
-        <ul class="links">
-            <li><a href="mailto:scottclark591@gmail.com">email</a>
-            </li>
-            <li><a href="/assets/misc/resume.pdf">resume</a>
-            </li>
-            <li><a href="https://github.com/clarkbarz">github</a>
-            </li>
-            <li><a href="https://twitter.com/clarkbarz">twitter</a>
-            </li>
-        </ul>
-        <iframe width="90%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F47370909&amp;color=104e8b&amp;auto_play=false"></iframe>
-        <div class="knox-payments-div" data-amount="custom"></div>
+
+        <div class="span4 visible-desktop">
+            <div class="sidebar-nav sidebar-nav-fixed" id="navigation">
+                <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
+                <ul class="links">
+                    <li><a href="mailto:scottclark591@gmail.com">email</a>
+                    </li>
+                    <li><a href="/assets/misc/resume.pdf">resume</a>
+                    </li>
+                    <li><a href="https://github.com/clarkbarz">github</a>
+                    </li>
+                    <li><a href="https://twitter.com/clarkbarz">twitter</a>
+                    </li>
+                </ul>
+                <iframe width="90%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F47370909&amp;color=104e8b&amp;auto_play=false"></iframe>
+                <iframe src="/assets/html/knox.html" name="knoxFrame" width="100%" height="400px"></iframe>
+            </div>
         </div>
-    </div>
-    <div class="span8" id="display-content">
-        <div class="hidden-desktop" id="mobile-navigation">
-        <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
-        <ul class="links">
-            <li><a href="mailto:scottclark591@gmail.com">email</a></li> |
-            <li><a href="/assets/misc/resume.pdf">resume</a>
-            </li> |
-            <li><a href="https://github.com/clarkbarz">github</a>
-            </li> |
-            <li><a href="https://twitter.com/clarkbarz">twitter</a>
-            </li>
-            </li> |
-            <li><a href="http://www.soundcloud.com/clarkbarz">soundcloud</a>
-        </ul>
+
+        <div class="span8" id="display-content">
+            <div class="hidden-desktop" id="mobile-navigation">
+                <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
+                <ul class="links">
+                    <li><a href="mailto:scottclark591@gmail.com">email</a></li> |
+                    <li><a href="/assets/misc/resume.pdf">resume</a>
+                    </li> |
+                    <li><a href="https://github.com/clarkbarz">github</a>
+                    </li> |
+                    <li><a href="https://twitter.com/clarkbarz">twitter</a>
+                    </li>
+                    </li> |
+                    <li><a href="http://www.soundcloud.com/clarkbarz">soundcloud</a>
+                </ul>
+            </div>
+
+
+            {{ content }}
+
+            <div id="footer">
+                <small> Powered by:
+                    <br>
+                    <a href="http://github.com/mojombo/jekyll">Jekyll</a>
+                    <br>
+                    <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
+                </small>
+            </div>
         </div>
-        {{ content }}
-        <div id="footer">
-        <small> Powered by:
-            <br>
-            <a href="http://github.com/mojombo/jekyll">Jekyll</a>
-            <br>
-            <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
-        </small>
-        </div>
-    </div>
+
     </div>
 </div>
 </body>

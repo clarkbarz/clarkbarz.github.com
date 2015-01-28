@@ -1,0 +1,11 @@
+<form action="http://localhost/pay" method="get" class="knox_payment_form" name="donation" target="knoxFrame" onsubmit="document.getElementById('myFrame').style.display = 'block';">
+    <input type="hidden" name="amount" value="0.01">
+    <input type="hidden" name="api_key" value="47d81ba073de1b9c69edee2af4d6f5f31b463fcd">
+    <input type="hidden" name="invoice_detail"  value="Donation to Clarks R Us">
+    <input type="hidden" name="information_request" value="show_all">
+    <input class="req_url" type="hidden" name="redirect_url" value="https://clarkbarz.github.io/">
+    <input type="hidden" name="redirect_method" value="GET">
+    <input class="why_who" type="hidden" name="why_who" value="default">
+    <button>Pay with Knox</button>
+</form>
+<iframe allowtransparency="true" frameborder="0" scrolling="yes" src="about:blank" name="myFrame" id="myFrame" style="overflow:scroll !important; -webkit-overflow-scrolling:touch !important; position: fixed; top: 0px; left: 0px; z-index: 999999 !important; width: 100%; height: 100%; display: none;"></iframe>
