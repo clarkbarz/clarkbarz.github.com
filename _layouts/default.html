@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Clark</title>
     <script src="/assets/scripts/jquery-1.11.2.min.js"></script>
+    <script src="/assets/scripts/things.js"></script>
 </head>
 
 <body>
 <div class="container-fluid">
     <div class="row-fluid whole-page">
 
-        <div class="span4 visible-desktop">
+        <div class="col-md-3 hidden-xs hidden-sm">
             <div class="sidebar-nav sidebar-nav-fixed" id="navigation">
                 <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
                 <ul class="links">
@@ -29,8 +30,8 @@
             </div>
         </div>
 
-        <div class="span8" id="display-content">
-            <div class="hidden-desktop" id="mobile-navigation">
+        <div class="col-md-9" id="display-content">
+            <div class="visible-xs-block visible-sm-block" id="mobile-navigation">
                 <h1 class="sitetitle"><a href="/">Scott Clark</a></h1>
                 <ul class="links">
                     <li><a href="mailto:scottclark591@gmail.com">email</a></li> |
@@ -47,13 +48,15 @@
 
             {{ content }}
 
-            <div id="footer">
-                <small> Powered by:
-                    <br>
-                    <a href="http://github.com/mojombo/jekyll">Jekyll</a>
-                    <br>
-                    <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
-                </small>
+            <div class="row-fluid">
+                <div id="footer">
+                    <p><small> Powered by:
+                        <br>
+                        <a href="http://github.com/mojombo/jekyll">Jekyll</a>
+                        <br>
+                        <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
+                    </small></p>
+                </div>
             </div>
         </div>
 

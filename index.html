@@ -1,21 +1,9 @@
 ---
 layout: default
 ---
-<div id="homepage">
-	{% for post in site.posts %}
-	  	<div class="row-fluid">
-	  		<div class="pagetitle">
-	  			<ul class="blogtitle">
-		    		<li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li>
-		    		<li><h4>- {{ post.date | date: "%b %d, %Y" }}</h4></li>
-	    		</ul>
-	    	</div>
-	    	<div class="pagetext">
-	    		{{ post.content | split:'<!--break-->' | first }}</p>
-	    		{% if post.content contains '<!--break-->' %}
-	    			<a href="{{ post.url }}" class="readmore">Read more</a>
-	    		{% endif %}
-	    	</div>
-	  </div>
-	{% endfor %}
+<h2>These are a few of my favorite things...</h2>
+<div id="thing-columns" class="row-fluid center">
+    <div id="column0" class="col-lg-4"></div>
+    <div id="column1" class="col-lg-4"></div>
+    <div id="column2" class="col-lg-4"></div>
 </div>

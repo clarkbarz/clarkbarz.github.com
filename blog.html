@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div id="homepage">
+{% for post in site.posts %}
+    <div class="row-fluid">
+        <div class="pagetitle">
+            <ul class="blogtitle">
+                <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li>
+                <li><h4>- {{ post.date | date: "%b %d, %Y" }}</h4></li>
+            </ul>
+        </div>
+        <div class="pagetext">
+            {{ post.content | split:'<!--break-->' | first }}</p>
+            {% if post.content contains '<!--break-->' %}
+                <a href="{{ post.url }}" class="readmore">Read more</a>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}
+</div>
