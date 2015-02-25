@@ -1,15 +1,6 @@
 @import url(bootstrap.min.css);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
-/* Responsive stuff */
-
-@media (max-width: 1079px) {
-    .img-overlay {
-        width: 60%;
-        left: 20%;
-    }
-}
-
 /* Misc */
 
 body {
@@ -196,7 +187,6 @@ div.thing-tile {
     opacity: 0;
     top: 10%;
     color: #275F96;
-    font-size: 16px;
     margin-right: 3px;
     padding: 12px 17px 12px 12px;
     text-align: center;
@@ -294,4 +284,32 @@ div.thing-tile {
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
+}
+
+/* Responsive stuff */
+
+@media (min-width: 1333px) {
+    .img-overlay {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1332px) {
+    .img-overlay {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+    .img-overlay {
+        font-size: 18px;
+        width: 66%;
+        left: 17%;
+    }
+}
+
+@media (max-width: 499px) {
+    .img-overlay {
+        font-size: 16px;
+    }
 }
